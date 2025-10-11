@@ -1,0 +1,28 @@
+{
+  "name": "claude-nights-watch",
+  "version": "1.0.0",
+  "description": "Autonomous task execution daemon that monitors Claude usage windows and executes predefined tasks automatically. Keep Claude working 24/7 on your projects.",
+  "author": {
+    "name": "Aniket Karne",
+    "email": "[email protected]",
+    "url": "https://github.com/aniketkarne"
+  },
+  "homepage": "https://github.com/aniketkarne/ClaudeNightsWatch",
+  "repository": "https://github.com/aniketkarne/ClaudeNightsWatch",
+  "license": "MIT",
+  "keywords": [
+    "automation",
+    "daemon",
+    "task-execution",
+    "monitoring",
+    "autonomous",
+    "productivity",
+    "workflow",
+    "ci-cd"
+  ],
+  "commands": "./commands/",
+  "agents": "./agents/",
+  "hooks": "./hooks/hooks.json",
+  "mcpServers": "./.mcp.json"
+}
+

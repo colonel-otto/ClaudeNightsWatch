@@ -6,7 +6,7 @@ rules.md
 logs/
 *.log
 *.pid
-.claude-*
+
 
 # OS files
 .DS_Store
