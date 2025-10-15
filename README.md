@@ -57,8 +57,8 @@ Claude Nights Watch extends the auto-renewal concept to create a fully autonomou
 
 ## 🔥 Plugin Installation (Recommended)
 
-### Option 1: Install as Claude Code Plugin
-
+### Option 1: As Claude Code Plugin
+#### Standard Installation 
 ```bash
 # Method 1: From marketplace (when available)
 claude plugins marketplace add https://github.com/aniketkarne/claude-plugins-marketplace
@@ -70,6 +70,13 @@ claude plugins add https://github.com/aniketkarne/ClaudeNightsWatch
 # Method 3: From local directory (for development)
 claude plugins add /path/to/ClaudeNightsWatch
 ```
+#### One-Command Installation
+Use the [Claude Plugins CLI](https://claude-plugins.dev) to skip the marketplace setup:
+```bash
+npx claude-plugins install @aniketkarne/claude-nights-watch-marketplace/claude-nights-watch
+```
+
+This automatically adds the marketplace and installs the plugin in a single step.
 
 ### Plugin Usage
 
