@@ -50,6 +50,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Moved `hooks.json` and `.mcp.json` into `.claude-plugin/` directory
   - Updated manifest paths to use `./` prefix as required (paths cannot escape plugin directory with `../`)
   - Both config files use `${CLAUDE_PLUGIN_ROOT}` variable to correctly reference root-level directories
+  - Changed plugin name from `claude-nights-watch` to `nights-watch` for cleaner slash command syntax
 
 ### Planned
 - Web dashboard for monitoring and management

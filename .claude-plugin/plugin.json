@@ -1,5 +1,5 @@
 {
-  "name": "claude-nights-watch",
+  "name": "nights-watch",
   "version": "1.0.0",
   "description": "Autonomous task execution daemon that monitors Claude usage windows and executes predefined tasks automatically. Keep Claude working 24/7 on your projects.",
   "author": {
