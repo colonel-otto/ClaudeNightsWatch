@@ -44,6 +44,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- Fixed plugin manifest to comply with Claude Code plugin system requirements
+  - Removed `commands` and `agents` fields from manifest (auto-discovered from root directories)
+  - Moved `hooks.json` and `.mcp.json` into `.claude-plugin/` directory
+  - Updated manifest paths to use `./` prefix as required (paths cannot escape plugin directory with `../`)
+  - Both config files use `${CLAUDE_PLUGIN_ROOT}` variable to correctly reference root-level directories
+
 ### Planned
 - Web dashboard for monitoring and management
 - Multiple task file support
