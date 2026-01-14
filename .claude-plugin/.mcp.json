@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "nights-watch": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/mcp-server/nights-watch-server.sh",
+      "env": {
+        "NIGHTS_WATCH_ROOT": "${CLAUDE_PLUGIN_ROOT}"
+      }
+    }
+  }
+}
+
